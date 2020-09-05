@@ -1,0 +1,169 @@
+{
+    "passages": [
+      {
+        "text": "You find yourself in a castle throne roon. How do you wish to move?\n[[kitchen]]\n[[sleeping chamber]]\n[[long hallway]]",
+        "links": [
+          {
+            "name": "kitchen",
+            "link": "kitchen",
+            "pid": "2"
+          },
+          {
+            "name": "sleeping chamber",
+            "link": "sleeping chamber",
+            "pid": "3"
+          },
+          {
+            "name": "long hallway",
+            "link": "long hallway",
+            "pid": "4"
+          }
+        ],
+        "name": "throne room",
+        "pid": "1",
+        "position": {
+          "x": "458",
+          "y": "141"
+        }
+      },
+      {
+        "text": "You appear to have entered a kitchen. What do you do?\n[[go back to throne room->throne room]] \n[[search cabinets]]\n[[go through next door]]",
+        "links": [
+          {
+            "name": "go back to throne room",
+            "link": "throne room",
+            "pid": "1"
+          },
+          {
+            "name": "search cabinets",
+            "link": "search cabinets",
+            "pid": "5"
+          },
+          {
+            "name": "go through next door",
+            "link": "go through next door",
+            "pid": "6"
+          }
+        ],
+        "name": "kitchen",
+        "pid": "2",
+        "position": {
+          "x": "261",
+          "y": "338"
+        }
+      },
+      {
+        "text": "You appear to have entered the castle guards's sleeping chamber. What do you do?\n[[go back to throne room->throne room]] \n[[sneak past guards to next room]]\n[[awake a guard and ask \"where am I\"]]",
+        "links": [
+          {
+            "name": "go back to throne room",
+            "link": "throne room",
+            "pid": "1"
+          },
+          {
+            "name": "sneak past guards to next room",
+            "link": "sneak past guards to next room",
+            "pid": "7"
+          },
+          {
+            "name": "awake a guard and ask \"where am I\"",
+            "link": "awake a guard and ask \"where am I\"",
+            "pid": "8"
+          }
+        ],
+        "name": "sleeping chamber",
+        "pid": "3",
+        "position": {
+          "x": "412",
+          "y": "339"
+        }
+      },
+      {
+        "text": "You have entered a long hallway with passages running horizontal to you down both sides. \n[[return to the throne room->throne room]] \n[[go down right hallway]]\n[[go down left hallway]]",
+        "links": [
+          {
+            "name": "return to the throne room",
+            "link": "throne room",
+            "pid": "1"
+          },
+          {
+            "name": "go down right hallway",
+            "link": "go down right hallway",
+            "pid": "9"
+          },
+          {
+            "name": "go down left hallway",
+            "link": "go down left hallway",
+            "pid": "10"
+          }
+        ],
+        "name": "long hallway",
+        "pid": "4",
+        "position": {
+          "x": "562",
+          "y": "339"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "search cabinets",
+        "pid": "5",
+        "position": {
+          "x": "186",
+          "y": "488"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "go through next door",
+        "pid": "6",
+        "position": {
+          "x": "336",
+          "y": "488"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "sneak past guards to next room",
+        "pid": "7",
+        "position": {
+          "x": "456",
+          "y": "489"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "awake a guard and ask \"where am I\"",
+        "pid": "8",
+        "position": {
+          "x": "576",
+          "y": "489"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "go down right hallway",
+        "pid": "9",
+        "position": {
+          "x": "696",
+          "y": "489"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "go down left hallway",
+        "pid": "10",
+        "position": {
+          "x": "816",
+          "y": "489"
+        }
+      }
+    ],
+    "name": "Castle",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "B745EB0C-CC70-40D7-86B8-7F946FF44F0B"
+  }
+  
+  
